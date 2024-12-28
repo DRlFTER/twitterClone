@@ -4,7 +4,6 @@ This project is a simulation of a Twitter-like social media platform. Users can 
 
 ![image](https://github.com/user-attachments/assets/968c6653-dd97-4f27-b4f2-c28ad700929c)
 
-
 ## Features
 
 - **Google Authentication**: Users can log in with their Google accounts.
@@ -68,6 +67,49 @@ To run this project locally, ensure you have the following installed:
    REACT_APP_STORAGE_BUCKET=your-storage-bucket
    REACT_APP_MESSAGING_SENDER_ID=your-messaging-sender-id
    REACT_APP_APP_ID=your-app-id
+   ```
+
+6. Install and set up Tailwind CSS:
+   - Install Tailwind CSS via npm:
+     ```bash
+     npm install -D tailwindcss postcss autoprefixer
+     npx tailwindcss init
+     ```
+   - Configure the `tailwind.config.js` file:
+     ```javascript
+     module.exports = {
+       content: ["./src/**/*.{js,jsx,ts,tsx}"],
+       theme: {
+         extend: {},
+       },
+       plugins: [],
+     };
+     ```
+   - Add Tailwind directives to your CSS file (e.g., `src/index.css`):
+     ```css
+     @tailwind base;
+     @tailwind components;
+     @tailwind utilities;
+     ```
+
+7. Install and set up Framer Motion:
+   - Install the library:
+     ```bash
+     npm install framer-motion
+     ```
+   - Import and use Framer Motion components in your project. Example:
+     ```javascript
+     import { motion } from "framer-motion";
+
+     const ExampleComponent = () => (
+       <motion.div
+         initial={{ opacity: 0 }}
+         animate={{ opacity: 1 }}
+         transition={{ duration: 0.5 }}
+       >
+         Smooth Animation
+       </motion.div>
+     );
    ```
 
 ---
