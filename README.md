@@ -1,8 +1,8 @@
-![image](https://github.com/user-attachments/assets/968c6653-dd97-4f27-b4f2-c28ad700929c)# Twitter-Like Social Media Simulation
+# Twitter-Like Social Media Simulation
 
 This project is a simulation of a Twitter-like social media platform. Users can log in using their Google accounts, share ideas, and like posts. The application is built using React, with Firebase as the backend, Tailwind CSS for styling, and Motion for animations.
 
-![App Screenshot](./socialSim.png)
+![image](https://github.com/user-attachments/assets/968c6653-dd97-4f27-b4f2-c28ad700929c)
 
 
 ## Features
