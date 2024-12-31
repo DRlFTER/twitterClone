@@ -1,4 +1,4 @@
-# Twitter-Like Social Media Simulation
+# Twitter Clone
 
 This project is a simulation of a Twitter-like social media platform. Users can log in using their Google accounts, share ideas, and like posts. The application is built using React, with Firebase as the backend, Tailwind CSS for styling, and Motion for animations.
 
